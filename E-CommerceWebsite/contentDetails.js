@@ -31,6 +31,7 @@ function dynamicContentDetails(ob)
     // console.log(productDetailsDiv);
 
     let h1 = document.createElement('h1')
+    h1.id = 'productHeading'
     let h1Text = document.createTextNode(ob.name)
     h1.appendChild(h1Text)
 
