@@ -83,6 +83,7 @@ function dynamicContentDetails(ob)
     buttonDiv.id = 'button'
 
     let buttonTag = document.createElement('button')
+    buttonTag.id = "btn-cart"
     buttonDiv.appendChild(buttonTag)
 
     buttonText = document.createTextNode('Add to Cart')
